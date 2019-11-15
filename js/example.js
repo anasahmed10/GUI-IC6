@@ -1,13 +1,13 @@
 // ADD NEW ITEM TO END OF LIST
   var newNode = document.createElement("LI");
-  var textNode = document.createTextNode("kale");
+  var textNode = document.createTextNode("cream");
   newNode.appendChild(textNode);
   var list = document.getElementById("myList");
   list.appendChild(newNode);
 
 // ADD NEW ITEM START OF LIST
   var newNode, textNode;
-  textNode = document.createTextNode("cream");
+  textNode = document.createTextNode("kale");
   newNode = document.createElement("LI");
   newNode.appendChild(textNode);
 
